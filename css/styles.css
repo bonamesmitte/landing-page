@@ -24,11 +24,20 @@ header .nav li{
     margin-left: 70px;
 }
 
+
 header .nav li a{
     text-decoration: none;
-    color: #cc5f58;
-    font-weight: 550;
+    /* color: #cc5f58; */
+    color: rgb(94, 94, 89);
+    font-weight: 700;
     font-size: 1.5em;
+    margin-right:
+}
+
+header .nav li a i{
+    /* color: #cc5f58; */
+    color: rgb(138, 88, 138);
+    font-size: 1.1em;
 }
 
 
@@ -48,6 +57,11 @@ section{
     position: absolute;
     top: 15%;
     left: 97%;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: grey;
+    outline: none;
 }
 
 .video-wrap{
@@ -63,21 +77,6 @@ section{
 .video-wrap video{
     min-width: 100%;
     min-height: 100%;
-}
-
-.video-wrap .music-btn{
-    z-index:2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.far{
-    font-size: 1.5erm;
-}
-
-.far hover{
-    color: white;
 }
 
 nav{

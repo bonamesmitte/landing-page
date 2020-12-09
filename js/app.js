@@ -1,12 +1,9 @@
-let music = document.getElementById("music");
-let IconPlay = document.getElementsByClass("far fa-play-circle")
-let IconPause = document.getElementsByClassName("far fa-pause-circle")
-
-IconPlay.onclick = function(){
+function play(){
+    let music = document.getElementById("music");
     music.play();
 }
 
-IconPause.onclick = function(){
+function pause(){
+    let music = document.getElementById("music");
     music.pause();
 }
-

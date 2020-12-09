@@ -19,8 +19,12 @@
       <li><a href="#"">What We Do</li>
       <li><a href="#"">Portfolio</li>
       <li><a href="#"">Contact</li>
+     <li class="icons">
+        <a href="#"><i class="fab fa-facebook-square"></i>
+      <a href="#"><i class="fab fa-twitter-square"></i>
+      <a href="#"><i class="fab fa-instagram-square"></i>
+      </li>
    </ul>
-
 
   </header>
 
@@ -30,14 +34,13 @@
       <!-- <embed src="./assets/music/lovely.mp3" autoplay="autoplay" loop=""> -->
     </div>
 
-    <div id="music">
-      <audio src="assets/music/lovely.mp3" autoplay="autoplay" loop=""></audio>
+    <div>
+      <audio id="music" src="assets/music/lovely.mp3" autoplay="autoplay" loop=""></audio>
     </div>
 
     <button class="music-btn">
-      <i class="far fa-play-circle"></i>
-      <i class="far fa-pause-circle"></i>
-    </button>
+      <i class="far fa-play-circle" onclick="play()" ></i>
+      <i class="far fa-pause-circle" onclick="pause()"></i>
   </section>
 
 
