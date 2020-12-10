@@ -7,3 +7,4 @@ function pause(){
     let music = document.getElementById("music");
     music.pause();
 }
+

@@ -8,7 +8,7 @@ header{
     padding: 5px 40px;
     z-index: 3;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color:#f5e6df ;
     opacity: 0.9;
