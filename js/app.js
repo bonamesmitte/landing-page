@@ -10,8 +10,40 @@ function pause(){
     music.pause();
 }
 
-{/* <Portfolio Slides> */}
+{/* <Portfolio> */}
+const img = document.getElementById('img-area');
 
+function change1(){
+    img.src='../assets/img/1.jpg'
+}
+
+function change2(){
+    img.src='../assets/img/2.jpg'
+}
+
+function change3(){
+    img.src='../assets/img/3.jpg'
+}
+
+function change4(){
+    img.src='../assets/img/4.jpg'
+}
+
+function change5(){
+    img.src='../assets/img/5.jpg'
+}
+
+function change6(){
+    img.src='../assets/img/6.jpg'
+}
+
+function change7(){
+    img.src='../assets/img/7.jpg'
+}
+
+function change8(){
+    img.src='../assets/img/8.jpg'
+}
 
 
 
@@ -67,6 +99,3 @@ function setSuccess(input){
     rightControl.className = 'form-control success';
 }
 
-function btn(){
-    alert("Thank you. Your message has been successfully submitted.");
-}

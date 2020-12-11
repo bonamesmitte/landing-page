@@ -58,7 +58,7 @@ section{
     z-index: 10;
     position: absolute;
     top: 15%;
-    left: 97%;
+    left: 80%;
     background-color: transparent;
     border: none;
     font-size: 40px;
@@ -130,7 +130,6 @@ nav{
 
 /* <Portfolio> */
 .portfolio{
-    /* overflow: hidden; */
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -139,31 +138,17 @@ nav{
     align-items: center;
 }
 
-.slider{
-    width: 1000px;
-    margin-top: 130px;
-    overflow: hidden;
+.pic{
+    margin-top: 170px;
 }
 
-.slide{
-    width:20%;
-    transition: 2s;
+.btn-container{
+    display: inline-block;
 }
 
-.slides{
-    width: 500%;
-    height: 680px;
-    display: flex;
-} 
-
-
-.navigation-maunal{
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-
+.btn{
+    margin: 3px;
 }
-
 
 /* <Contact> */
 .contact-left{
@@ -224,7 +209,6 @@ button{
     border-radius: 5px;
     opacity: 70%;
     font-size: 20px;
-
 }
 
 .form-control input #email{
