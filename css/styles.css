@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* <Home> */
+
 header{
     position: fixed;
     top:0;
@@ -12,7 +14,6 @@ header{
     align-items: center;
     background-color:#f5e6df ;
     opacity: 0.9;
-
 }
 
 header .nav{
@@ -82,4 +83,178 @@ section{
 
 nav{
     background-color: #f5e6df;
+}
+
+
+/* <Company> */
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr;
+    height: 100vh;
+    grid-gap: 80px;
+    grid-template-areas:
+    "header header"
+    "side main"
+}
+
+.company{
+    overflow: hidden;
+}
+.header{
+    grid-area: header;
+}
+
+.left{
+    grid-area:side;
+    margin-left: 100px;
+}
+
+.right{
+    grid-area:main;
+    color: rgb(94, 94, 89);
+    margin-right: 250px;
+}
+
+.right p{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 200;
+    
+}
+
+.right h3{
+    font-weight: 600;
+}
+
+/* <Portfolio> */
+.portfolio{
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    width: 1000px;
+    margin-top: 130px;
+    overflow: hidden;
+}
+
+.slide{
+    width:20%;
+    transition: 2s;
+}
+
+.slides{
+    width: 500%;
+    height: 680px;
+    display: flex;
+} 
+
+
+.navigation-maunal{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+
+}
+
+
+/* <Contact> */
+.contact-left{
+    margin: 80px;
+    margin-top: 140px;
+    width: 500px;
+}
+
+.right{
+    font-size: 20px;
+    font-weight: bold;
+    width: 700px;
+}
+
+.form-control i{
+    visibility: hidden;
+}
+
+small{
+    font-size: 12px;
+    font-weight: 100;
+    visibility: hidden;
+}
+
+.form-control{
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    display: block;
+    width: 40%;
+    height: 20px;;
+}
+
+.side span{
+    display: flex;
+    text-align: center;
+}
+
+.textarea{
+    width: 400px;
+    height: 180px;
+}
+
+span{
+    font-size:16px;
+}
+
+button{
+    width: 100px;
+    margin-left: 160px;
+    background-color:#cc5f58;
+    border-radius: 5px;
+    opacity: 70%;
+    font-size: 20px;
+
+}
+
+.form-control input #email{
+    width: 100px;
+}
+
+.form-control.success input{
+    border-color: green;
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+.form-control i{
+    position: absolute;
+}
+
+.form-control.success i.fa-check-circle{
+    color: green;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color:red;
+    visibility: visible;
+}
+
+.form-control.error small{
+    color: red;
+    visibility: visible;
+    margin-left: 30px;
 }
